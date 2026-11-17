@@ -1,0 +1,13 @@
+# Render blueprint: one free web service that builds the React client and serves it from Express.
+services:
+  - type: web
+    name: devconnect
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_FILE
+        value: /tmp/devconnect.db
