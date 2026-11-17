@@ -2,7 +2,7 @@
 
 A developer community web app: sign up, build a profile, post to a feed, and follow other developers.
 
-**A project by Sandeep Sagar - Developed with AI assistance**
+**A project by Sandeep Sagar**
 
 ## Tech stack
 - **Frontend:** React 18 + Vite, React Router

@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/profile/:id" element={<Profile />} />
           <Route path="/edit-profile" element={<Protected><EditProfile /></Protected>} />
         </Routes>
-        <footer className="footer">A project by Sandeep Sagar - Developed with AI assistance</footer>
+        <footer className="footer">A project by Sandeep Sagar</footer>
       </main>
       <aside className="rail"><Suggested /><p className="rail-note">React + Express + SQLite. JWT auth.</p></aside>
     </div>
